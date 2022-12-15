@@ -18,12 +18,10 @@ scipy = "^1.9.3"
 numpy = "^1.23.5"
 seaborn = "^0.12.1"
 matplotlib = "^3.6.2"
-d3 = "^0.1.0"
 pydantic = "^1.10.2"
 uvicorn = "^0.20.0"
 pandas = "^1.5.2"
-surprise = "^0.1"
-sklearn = "^0.0.post1"
+scikit-learn = "^1.2.0"
 
 
 [build-system]
