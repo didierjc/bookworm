@@ -26,6 +26,10 @@ pylint = "^2.15.8"
 gunicorn = "^20.1.0"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+requests = "^2.28.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
