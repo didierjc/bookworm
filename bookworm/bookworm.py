@@ -5,6 +5,8 @@ from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from bookworm.api.router import health
 from bookworm.api.middleware.aTimer import asyncTimer
 from bookworm.api.middleware.aLogRequests import asyncLogRequests
+from config.settings import Settings
+
 
 # Create FastAPI instance
 api = FastAPI()
@@ -19,9 +21,21 @@ api.add_middleware(asyncTimer)
 api.add_middleware(asyncLogRequests)
 
 # Add routers
-api.include_router(health.router, prefix="/health", tags=["health"], responses={404: {"description": "Not found"}})
+api.include_router(
+    health.router,
+    prefix="/health",
+    tags=["health"],
+    responses={404: {"description": "Not found"}},
+)
 
 # Add root endpoint
 @api.get("/", status_code=200)
 def home():
-    return {"status_code": 200, "status": "Ok"}
+    return {
+        "app_name": Settings.base["app_name"],
+        "environment": Settings.base["environment"],
+        "debug": Settings.base["debug"],
+        "status_code": 200,
+        "status": "Ok",
+        "testing": Settings.base["testing"],
+    }
