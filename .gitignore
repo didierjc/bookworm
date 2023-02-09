@@ -42,7 +42,7 @@ appengine-generated/
 
 
 ### Archives ###
-# It's better to unpack these files and commit the raw source because
+# It"s better to unpack these files and commit the raw source because
 # git has its own built in compression methods.
 *.7z
 *.jar
@@ -387,7 +387,7 @@ ipython_config.py
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   having no cross-platform support, pipenv may install dependencies that don"t work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
@@ -597,21 +597,21 @@ terraform.rc
 # Zsh zcalc history
 .zcalc_history
 
-# A popular plugin manager's files
+# A popular plugin manager"s files
 ._zinit
 .zinit_lstupd
 
-# zdharma/zshelldoc tool's files
+# zdharma/zshelldoc tool"s files
 zsdoc/data
 
-# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin's files
+# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin"s files
 # (when set-up to store the history in the local directory)
 .directory_history
 
-# MichaelAquilina/zsh-autoswitch-virtualenv plugin's files
+# MichaelAquilina/zsh-autoswitch-virtualenv plugin"s files
 # (for Zsh plugins using Python)
 
-# Zunit tests' output
+# Zunit tests" output
 /tests/_output/*
 !/tests/_output/.gitkeep
 
@@ -652,7 +652,7 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
+# Uncomment if you have tasks that create the project"s static files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
@@ -818,7 +818,7 @@ PublishScripts/
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
+# NuGet v3"s project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
 
@@ -946,7 +946,7 @@ paket-files/
 # Tabs Studio
 *.tss
 
-# Telerik's JustMock configuration file
+# Telerik"s JustMock configuration file
 *.jmconfig
 
 # BizTalk build output
@@ -1004,5 +1004,5 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,appengine,archive,archives,backup,intellij,jetbrains+all,linux,pydev,python,r,react,terraform,visualstudio,zsh
 
-# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+# Custom rules (everything added below won"t be overriden by "Generate .gitignore File" if you use "Update" option)
 
