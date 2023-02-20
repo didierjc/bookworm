@@ -31,6 +31,11 @@ class GlobalConfig(BaseSettings):
 class Local(GlobalConfig):
     """Local configurations."""
 
+    # Akeyless
+    from bookworm.api.service.akeyless import Akeyless
+
+    akeyless = Akeyless()
+
     # Postgres Config
     username: str = "postgres"
     password: str = "postgres"

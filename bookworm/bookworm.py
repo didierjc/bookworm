@@ -45,6 +45,7 @@ def home():
         "version": settings.VERSION,
         "timestamp": datetime.timestamp(datetime.now()),
         "environment": settings.ENV_STATE,
+        "localpgpwd": settings.akeyless.get_vault_secret("localpgpwd"),
     }
     return {
         "running": True,
