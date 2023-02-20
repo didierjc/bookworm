@@ -16,6 +16,7 @@ import time
 # Load environment variables without exporting the variables explicitly by the export command
 load_dotenv()
 
+
 # [START] default logger
 logger = logging.getLogger(__name__)
 logger.handlers = []
