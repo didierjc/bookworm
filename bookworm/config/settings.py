@@ -41,6 +41,7 @@ class Local(GlobalConfig):
     password: str = "postgres"
     port: int = 5432
     host: str = "localhost"
+    name: str = "bookworm"
 
     class Config:
         pass

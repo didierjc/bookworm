@@ -29,6 +29,8 @@ python-dotenv = "^0.21.0"
 hvac = "^1.0.2"
 akeyless = "^3.2.3"
 mypy = "^1.0.0"
+psycopg = "^3.1.8"
+psycopg-binary = "^3.1.8"
 
 
 [tool.poetry.group.dev.dependencies]
